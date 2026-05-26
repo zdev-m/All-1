@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All-1 | Premium Multi-Tools Platform</title>
+    <meta name="description" content="All-1 is a high-end SaaS platform providing 20+ essential modern tools for developers, designers, and professionals.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Loading Screen -->
+    <div id="loader" class="loader-wrapper">
+        <div class="loader-content">
+            <div class="loader-logo">All-<span>1</span></div>
+            <div class="loader-bar-container">
+                <div class="loader-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Elements -->
+    <div class="bg-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+    <div id="particles-js"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">All-<span>1</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="#tools" class="btn btn-primary btn-small">Get Started</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="reveal-text">Elevate Your Workflow with <span class="gradient-text">All-1</span></h1>
+                <p class="hero-subtitle reveal-up">The ultimate suite of premium tools for modern professionals. Fast, secure, and elegantly designed to boost your productivity.</p>
+                <div class="hero-btns reveal-up">
+                    <a href="#tools" class="btn btn-primary">Explore Tools</a>
+                    <a href="#features" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-visual reveal-up">
+                <div class="visual-mockup">
+                    <div class="mockup-header">
+                        <div class="dots"><span></span><span></span><span></span></div>
+                    </div>
+                    <div class="mockup-body">
+                        <div class="mockup-grid">
+                            <div class="mockup-item"></div>
+                            <div class="mockup-item"></div>
+                            <div class="mockup-item"></div>
+                            <div class="mockup-item"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal-up">
+                    <div class="stat-number" data-target="20">0</div>
+                    <div class="stat-label">Total Tools</div>
+                </div>
+                <div class="stat-item reveal-up">
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">Active Users (k+)</div>
+                </div>
+                <div class="stat-item reveal-up">
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">Daily Visits (k+)</div>
+                </div>
+                <div class="stat-item reveal-up">
+                    <div class="stat-number" data-target="99">0</div>
+                    <div class="stat-label">Performance %</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="tools-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="reveal-up">Powerful <span class="gradient-text">Tools</span></h2>
+                <p class="reveal-up">Everything you need in one place. No login, no hassle, just performance.</p>
+            </div>
+            <div class="tools-grid">
+                <!-- Tool 1: QR Code Generator -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fas fa-qrcode"></i></div>
+                    <h3>QR Code Generator</h3>
+                    <p>Generate high-quality QR codes for URLs, text, or contact info instantly.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+                <!-- Tool 2: WhatsApp Direct Chat -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fab fa-whatsapp"></i></div>
+                    <h3>WhatsApp Direct</h3>
+                    <p>Start a WhatsApp chat without saving the number to your contacts.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+                <!-- Tool 3: Password Generator -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fas fa-key"></i></div>
+                    <h3>Password Gen</h3>
+                    <p>Create strong, secure, and customizable passwords for your accounts.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+                <!-- Tool 4: JSON Formatter -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fas fa-code"></i></div>
+                    <h3>JSON Formatter</h3>
+                    <p>Clean, format, and validate your JSON data with ease and clarity.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+                <!-- Tool 5: Age Calculator -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fas fa-birthday-cake"></i></div>
+                    <h3>Age Calculator</h3>
+                    <p>Calculate your exact age in years, months, and days accurately.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+                <!-- Tool 6: BMI Calculator -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fas fa-weight"></i></div>
+                    <h3>BMI Calculator</h3>
+                    <p>Check your Body Mass Index and understand your health status.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+                <!-- Tool 7: Gradient Generator -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fas fa-palette"></i></div>
+                    <h3>Gradient Gen</h3>
+                    <p>Design beautiful CSS gradients and copy the code for your projects.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+                <!-- Tool 8: Color Picker -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fas fa-eye-dropper"></i></div>
+                    <h3>Color Picker</h3>
+                    <p>Pick colors from an interactive palette and get HEX/RGB values.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+                <!-- Tool 9: Unit Converter -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fas fa-exchange-alt"></i></div>
+                    <h3>Unit Converter</h3>
+                    <p>Convert between various units like length, weight, and temperature.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+                <!-- Tool 10: Base64 Encoder -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Base64 Encoder</h3>
+                    <p>Encode or decode text to Base64 format securely and quickly.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+                <!-- Tool 11: URL Encoder -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fas fa-link"></i></div>
+                    <h3>URL Encoder</h3>
+                    <p>Encode or decode URLs to ensure they are safe for web use.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+                <!-- Tool 12: Text Counter -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fas fa-sort-numeric-up"></i></div>
+                    <h3>Text Counter</h3>
+                    <p>Count characters, words, and lines in your text instantly.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+                <!-- Tool 13: Markdown Previewer -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fab fa-markdown"></i></div>
+                    <h3>Markdown Preview</h3>
+                    <p>Write Markdown and see the rendered HTML in real-time.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+                <!-- Tool 14: Image Compressor UI -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fas fa-file-image"></i></div>
+                    <h3>Image Compressor</h3>
+                    <p>Optimize and reduce image file size without losing quality.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+                <!-- Tool 15: Notes App -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fas fa-sticky-note"></i></div>
+                    <h3>Notes App</h3>
+                    <p>A simple, elegant way to keep track of your thoughts and ideas.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+                <!-- Tool 16: Stopwatch -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fas fa-stopwatch"></i></div>
+                    <h3>Stopwatch</h3>
+                    <p>Precise stopwatch with lap functionality for your timing needs.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+                <!-- Tool 17: To-Do App -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fas fa-check-double"></i></div>
+                    <h3>To-Do App</h3>
+                    <p>Organize your tasks and stay productive with our task manager.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+                <!-- Tool 18: Currency Converter -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fas fa-dollar-sign"></i></div>
+                    <h3>Currency Converter</h3>
+                    <p>Check real-time exchange rates and convert global currencies.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+                <!-- Tool 19: Word Counter -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fas fa-font"></i></div>
+                    <h3>Word Counter</h3>
+                    <p>Detailed analysis of your writing including word density.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+                <!-- Tool 20: Random Password Checker -->
+                <div class="tool-card reveal-up" data-tilt>
+                    <div class="tool-icon"><i class="fas fa-user-shield"></i></div>
+                    <h3>Password Checker</h3>
+                    <p>Test the strength and security of your passwords instantly.</p>
+                    <button class="btn btn-tool">Open Tool</button>
+                    <div class="card-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="reveal-up">Why Choose <span class="gradient-text">All-1</span>?</h2>
+            </div>
+            <div class="bento-grid">
+                <div class="bento-item reveal-up">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Blazing Fast</h3>
+                    <p>Optimized for speed and efficiency in every interaction.</p>
+                </div>
+                <div class="bento-item reveal-up">
+                    <i class="fas fa-lock"></i>
+                    <h3>Fully Secure</h3>
+                    <p>Your data stays on your device. We value your privacy.</p>
+                </div>
+                <div class="bento-item reveal-up">
+                    <i class="fas fa-gift"></i>
+                    <h3>100% Free</h3>
+                    <p>All premium tools are available for free, forever.</p>
+                </div>
+                <div class="bento-item reveal-up">
+                    <i class="fas fa-user-slash"></i>
+                    <h3>No Login</h3>
+                    <p>No registration required. Use tools instantly.</p>
+                </div>
+                <div class="bento-item reveal-up">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive</h3>
+                    <p>Works perfectly on any device, from mobile to desktop.</p>
+                </div>
+                <div class="bento-item reveal-up">
+                    <i class="fas fa-magic"></i>
+                    <h3>Easy to Use</h3>
+                    <p>Simple, intuitive, and beautiful user interface.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="reveal-up">What <span class="gradient-text">Users Say</span></h2>
+            </div>
+            <div class="testimonials-slider reveal-up">
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p>"The cleanest tool platform I've ever used. The UI is absolutely stunning!"</p>
+                    <div class="user-info">
+                        <div class="user-avatar">JD</div>
+                        <div>
+                            <h4>John Doe</h4>
+                            <span>UI Designer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p>"All-1 has become my go-to for quick developer tools. Highly recommended."</p>
+                    <div class="user-info">
+                        <div class="user-avatar">AS</div>
+                        <div>
+                            <h4>Alex Smith</h4>
+                            <span>Full Stack Dev</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p>"Finally, a tools website that doesn't look like it's from 2005. Amazing work!"</p>
+                    <div class="user-info">
+                        <div class="user-avatar">MR</div>
+                        <div>
+                            <h4>Maria Ray</h4>
+                            <span>Product Manager</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="reveal-up">Frequently Asked <span class="gradient-text">Questions</span></h2>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item reveal-up">
+                    <div class="faq-question">
+                        <h3>Is All-1 really free to use?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, All-1 is completely free to use. All our tools are available without any subscription or hidden costs.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal-up">
+                    <div class="faq-question">
+                        <h3>Do I need to create an account?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No registration is required. We believe in providing value without barriers, so you can use all tools instantly.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal-up">
+                    <div class="faq-question">
+                        <h3>Is my data secure?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely. Most of our tools process data locally in your browser, meaning your sensitive information never even leaves your device.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal-up">
+                    <div class="faq-question">
+                        <h3>Are more tools coming soon?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We are constantly working on adding new tools to our platform. Stay tuned for regular updates and new features!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <a href="#" class="logo">All-<span>1</span></a>
+                    <p>The premium multi-tools platform for the modern era. Experience efficiency like never before.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#tools">Tools</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Popular Tools</h4>
+                    <ul>
+                        <li><a href="#">QR Generator</a></li>
+                        <li><a href="#">Password Gen</a></li>
+                        <li><a href="#">JSON Formatter</a></li>
+                        <li><a href="#">Unit Converter</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 All-1 Platform. All rights reserved. Designed with <i class="fas fa-heart"></i> for the web.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
